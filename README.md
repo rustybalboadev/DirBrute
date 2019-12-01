@@ -1,4 +1,5 @@
 # Dir Brute
+## Brute force URL directories
 # Supported Status Codes
 ### 500 - Internal Server Error
 ### 409 - Conflict
