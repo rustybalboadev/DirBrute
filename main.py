@@ -33,7 +33,7 @@ for each in f:
     words.append(each.replace('\n', ''))
 f.close()
 times = 0
-print(green("Testing URL: {}".format(args.url)))
+print(green("Testing URL: {}\nTotal Words in WList: {}".format(args.url, len(words))))
 while times != len(words):
     try:
         req = requests.get(args.url + '{}'.format(words[times]),
